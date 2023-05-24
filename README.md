@@ -1,4 +1,4 @@
-[![Masterhead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://github.com/Shuvkant)
+[![Masterhead](https://repository-images.githubusercontent.com/462900780/0a10af70-6cbf-46df-9071-0ff586a3b1d6)](https://github.com/Shuvkant)
 <h1 align="center">Hi 👋, I'm Shuvkant Chaudhary Phanait</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shuvkant&label=Profile%20views&color=0e75b6&style=flat" alt="shuvkant" /> </p>
 
