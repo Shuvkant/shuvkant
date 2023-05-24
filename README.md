@@ -1,12 +1,11 @@
 [![Masterhead](https://repository-images.githubusercontent.com/462900780/0a10af70-6cbf-46df-9071-0ff586a3b1d6)](https://github.com/Shuvkant)
 <h1 align="center">Hi 👋, I'm Shuvkant Chaudhary Phanait</h1>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shuvkant&label=Profile%20views&color=0e75b6&style=flat" alt="shuvkant" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shuvkant" alt="shuvkant" /></a> </p>
 
 - 📫 How to reach me **shuvkantphanait@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 </p>
 
