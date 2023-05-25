@@ -1,8 +1,11 @@
-[![Masterhead](https://repository-images.githubusercontent.com/462900780/0a10af70-6cbf-46df-9071-0ff586a3b1d6)](https://github.com/Shuvkant)
 <h1 align="center">Hi 👋, I'm Shuvkant Chaudhary Phanait</h1>
+<h1 align="center">Learning's Fun</h1>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shuvkant" alt="shuvkant" /></a> </p>
+<img align="right" alt="Coding" width="400" src="https://repository-images.githubusercontent.com/462900780/0a10af70-6cbf-46df-9071-0ff586a3b1d6"/>
 
+- 🌱 I’m currently learning **MERN stack , fullstack development**
+- 💬 Curious
+- ⚡ Fun fact **Stay Hungry**
 - 📫 How to reach me **shuvkantphanait@gmail.com**
 
 
