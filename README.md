@@ -1,4 +1,4 @@
-<h2 align="center">Hi there, I am Shuvkant Chaudhary 👋</h2>
+<h2 align="center">Hi there, I am Shuvkant Chaudhary Phanait 👋</h2>
 <p align="center">🌱 Learning's Fun</p>
 <!--
 **Shuvkant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
