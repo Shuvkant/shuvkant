@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Own Form</title>
+    <link rel="stylesheet" href="makeownform.css">
+</head>
+
+<body>
+    <main>
+        <div>
+            <header>
+                <h1>IOE Purwanchal Campus</h1>
+                <p class="description">Purwanchal Campus, formerly known as Eastern Region (ERC) Campus is one of constituent
+                    campuses
+                    of Tribhuvan University (TU) and one of the associate engineering campuses of Institute of Engineering (IOE)
+                    which is a comprehensive, non-profit making institution and pioneering institution of higher education level
+                    in
+                    Nepal funded by Government of Nepal.</p>
+            </header>
+            <form action="https://www.facebook.com">
+                <div class="form-group">
+                    <label>Name</label><input type="text" required placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label><input type="email" required placeholder="Someone@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label>
+                        Age(Optional)
+                    </label>
+                    <input type="number" required min="13" max="50">
+                </div>
+                <div class="form-group">
+                    <label>Which province do you belong?</label>
+                    <select required>
+                        <option value="0">Select a province</option>
+                        <option value="1">Province 1</option>
+                        <option value="2">Madhesh Pradesh</option>
+                        <option value="3">Bagmati Pradesh</option>
+                        <option value="4">Gandaki Pradesh</option>
+                        <option value="5">Lumbini Pradesh</option>
+                        <option value="6">Karnali Pradesh</option>
+                        <option value="7">Sudurpaschim Pradesh</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Would you recommend Purwanchal Campus to a friend?</label>
+                    <label><input type="radio" name="answer">Definitely</label>
+                    <label for=""><input type="radio" name="answer">Maybe</label>
+                    <label for=""><input type="radio" name="answer">Not Sure</label>
+                </div>
+                <div>
+                    <label>What are the programs offered by IOE?</label>
+                    <select>
+                        <option value="0">Select a program</option>
+                        <option value="1">UNDERGRADUATE(BE)</option>
+                        <option value="2">GRADUATE(M.SC)</option>
+                        <option value="3">Post Graduate(Ph.D)</option>
+                    </select>
+                </div>
+                <div class="courses">
+                    <label>Progrmas available in IOE Purwanchal</label>
+                    <label for=""><input type="checkbox">Architecture Engineering</label>
+                    <label for=""><input type="checkbox">Civil Engineering</label>
+                    <label for=""><input type="checkbox">Compute Engineeringr</label>
+                    <label for=""><input type="checkbox">Mechanical</label>
+                    <label for=""><input type="checkbox">Electronics and Communication Engineering</label>
+                    <label for=""><input type="checkbox">Aerospace Engineering</label>
+                    <p class="comments">Any comments or suggestions?</p>
+                        <textarea placeholder="Enter your comments here"></textarea>
+                    
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
