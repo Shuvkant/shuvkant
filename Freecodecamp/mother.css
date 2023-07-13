@@ -1,0 +1,21 @@
+body{
+    background-color: #fae2cd;
+}
+.title{
+    text-align: center;
+    color: maroon;
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.text{
+    color: rgb(72, 97, 6);
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+.center{
+    margin: auto;
+    width: 400px;
+    height: 200px;
+}
