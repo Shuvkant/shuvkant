@@ -45,12 +45,13 @@ const questions = [
     ],
   },
 ];
+let initialScore = 0;
+let score = 0;
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
-let score = 0;
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
@@ -87,6 +88,7 @@ function selectAnswer(e) {
   if (isCorrect) {
     selectedBtn.classList.add("correct");
     score++;
+    document.querySelector(".live-score").innerHTML = score;
   } else {
     selectedBtn.classList.add("incorrect");
   }
@@ -116,6 +118,7 @@ nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < questions.length) {
     handleNextButton();
   } else {
+    document.querySelector(".live-score").innerHTML = initialScore;
     startQuiz();
   }
 });
