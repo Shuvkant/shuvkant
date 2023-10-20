@@ -33,7 +33,7 @@
         scrollContainer.addEventListener("wheel", (evt) => {
             event.preventDefault();
             scrollContainer.scrollLeft += evt.deltaY;
-            scrollContainer.style.scrollBehavior = "auto";
+            scrollContainer.style.scrollBehavior = "autof";
         });
         nextBtn.addEventListener("click", () => {
             scrollContainer.style.scrollBehavior = "smooth";
