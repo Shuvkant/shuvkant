@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shuvkant Chaudhary Phanait</h1>
-<p align="center">🌱Learning's Fun</p>
+<p align="center">💻📚Learning's Fun</p>
 <p align="center">
 <a href="https://github.com/Shuvkant">
   
