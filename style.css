@@ -313,7 +313,7 @@ body {
     }
 }
 
-@media (max-width: 439px) {
+@media (max-width: 580px) {
     .navbar {
         position: fixed;
         display: none;
