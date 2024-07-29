@@ -302,6 +302,10 @@ body {
     align-items: left;
 }
 
+.hamburger {
+    display: none;
+}
+
 /* keyframes animation */
 @keyframes showRight {
     100% {
@@ -310,14 +314,42 @@ body {
 }
 
 @media (max-width: 439px) {
+    .navbar {
+        position: fixed;
+        display: none;
+    }
+
+    .navbar.active {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        right: 25vw;
+        top: 3vh;
+        gap: 3px;
+    }
+
+
     .picture {
-        width: 30%;
+        width: 20%;
         height: auto;
         right: 10vw;
+        top: 20vh;
     }
 
     img {
         width: 100%;
         height: auto;
     }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active {
+        display: block;
+        cursor: pointer;
+    }
+
+
 }
