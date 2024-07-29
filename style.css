@@ -274,33 +274,20 @@ body {
 .picture {
     position: absolute;
     top: 130px;
-    right: 30px;
+    right: 110px;
     /* left: 30px; */
-    width: 492px;
-    height: 60%;
+    width: 397px;
+    height: 397px;
     background: transparent;
-    transition: 3s;
-    /* border-radius: 120px; */
+    /* transition: 3s; */
+    border-radius: 50%;
 
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
+    background-color: #011e31;
 }
 
-
-
-.picture:hover {
-    background: #081b29;
-    opacity: 0.4;
-}
-
-.image {
-    justify-content: center;
-    align-items: center;
-    /* align-items: left; */
-
-}
 
 /* keyframes animation */
 @keyframes showRight {
