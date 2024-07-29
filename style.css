@@ -286,8 +286,22 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #011e31;
+    /* background-color: red; */
+
 }
 
+
+.image {
+    top: 130px;
+    right: 110px;
+    /* left: 30px; */
+    /* width: 397px; */
+    /* height: 397px; */
+    */ justify-content: center;
+    align-items: center;
+    align-items: left;
+
+}
 
 /* keyframes animation */
 @keyframes showRight {
