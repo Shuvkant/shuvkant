@@ -297,15 +297,27 @@ body {
     /* left: 30px; */
     /* width: 397px; */
     /* height: 397px; */
-    */ justify-content: center;
+    justify-content: center;
     align-items: center;
     align-items: left;
-
 }
 
 /* keyframes animation */
 @keyframes showRight {
     100% {
         width: 0;
+    }
+}
+
+@media (max-width: 439px) {
+    .picture {
+        width: 30%;
+        height: auto;
+        right: 10vw;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
     }
 }
