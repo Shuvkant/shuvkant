@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/fastbootstrap@2.2.0/dist/css/fastbootstrap.min.css" rel="stylesheet"
+    integrity="sha256-V6lu+OdYNKTKTsVFBuQsyIlDiRWiOmtC8VQ8Lzdm2i4=" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <form onsubmit="handleSubmit(event)" id="loginForm">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" required />
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" checked />
+      <label class="form-check-label" for="exampleCheck1">Always sign in on this device</label>
+    </div>
+    <div class="text-end">
+      <button type="button" class="btn btn-subtle me-2" onclick="cancelForm()">Cancel</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault()
+      getEmail()
+    }
+
+    function getEmail() {
+      let email = document.getElementById("exampleInputEmail1")
+
+      //Get email
+      let emailValue = email.value
+
+      let password = document.getElementById("exampleInputPassword1")
+      let passwordValue = password.value
+
+      if (emailValue === "shuvkantphanait@gmail.com" && passwordValue === "1234") {
+        console.log("Login Successful")
+        window.location.href = "shuvkant.html"
+      } else {
+        console.log("Email or password incorrect")
+      }
+    }
+    function cancelForm() {
+      //For confirming the cancel of the form 
+      let cancelForm = confirm("Are you sure you want to cancel the form ")
+      if (cancelForm) {
+        document.getElementById("loginForm").reset()
+        console.log("Form reset")
+
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
